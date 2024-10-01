@@ -15,7 +15,7 @@ export default function App() {
     const fetchData = async () => {
       try {
         // Fetches excel data
-        const response = await fetch('http://localhost:5001/api/data');
+        const response = await fetch('https://sp-500-return-data.onrender.com/api/data');
         const fetched = await response.json();
 
         // For debugging
