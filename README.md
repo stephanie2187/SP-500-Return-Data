@@ -20,3 +20,41 @@ A visual, interactive graph of the return data for the S&P 500. This project ing
 - **Front End**: React, Recharts, date-fns
 - **Back End**: Node.js, Express, xlsx
 - **Hosting**: GitHub Pages
+
+# Installation Instructions
+
+- Clone the repo and navigate into it
+  ```
+  git clone https://github.com/stephanie2187/SP-500-Return-Data.git
+  ```
+  ```
+  cd SP-500-Return-Data
+  ```
+- Set up the backend with dependencies and server
+  ```
+  cd backend
+  ```
+  ```
+  npm install
+  ```
+  ```
+  npm start
+  ```
+- Ensure the Excel file is stored in the data directory. If needed, access the server at http://localhost:5001
+
+- Set up the frontend with dependencies and server
+  ```
+  cd frontend
+  ```
+  ```
+  npm install
+  ```
+  If using a different port or different setup, ensure that src/App.js correctly points to the local backend:
+  ```
+  fetch('http://localhost:5001/api/data')
+  ```
+  ```
+  npm start
+  ```
+  If needed, view the frontend locally at http://localhost:3000
+  
