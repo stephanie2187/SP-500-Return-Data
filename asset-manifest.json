@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SP-500-Return-Data/static/css/main.19f6770c.css",
+    "main.js": "/SP-500-Return-Data/static/js/main.72141bc9.js",
+    "static/js/453.d855a71b.chunk.js": "/SP-500-Return-Data/static/js/453.d855a71b.chunk.js",
+    "index.html": "/SP-500-Return-Data/index.html",
+    "main.19f6770c.css.map": "/SP-500-Return-Data/static/css/main.19f6770c.css.map",
+    "main.72141bc9.js.map": "/SP-500-Return-Data/static/js/main.72141bc9.js.map",
+    "453.d855a71b.chunk.js.map": "/SP-500-Return-Data/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19f6770c.css",
+    "static/js/main.72141bc9.js"
+  ]
+}
