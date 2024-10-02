@@ -13,16 +13,17 @@ A visual, interactive graph of the return data for the S&P 500. This project ing
 - Calculates total return up to a specific point
 - Interactive line chart using Recharts which provides details on hover
 - Responsive UI
-- Loading icon while data is being fetched
+- Loading icon while data is being fetched from Render
 
 ## Technologies
 
 - **Front End**: React, Recharts, date-fns
-- **Back End**: Node.js, Express, xlsx
+- **Back End**: Node.js, Express, xlsx, Render
 - **Hosting**: GitHub Pages
 
 # Installation Instructions
 
+- While local installation is not required, these instructions may be helpful for testing or combating potential firewall/other issues with Render
 - Clone the repo and navigate into it
   ```
   git clone https://github.com/stephanie2187/SP-500-Return-Data.git
@@ -56,5 +57,5 @@ A visual, interactive graph of the return data for the S&P 500. This project ing
   ```
   npm start
   ```
-  If needed, view the frontend locally at http://localhost:3000
+  View the frontend locally at http://localhost:3000
   
